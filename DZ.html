@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>SK</title>
+  </head>
+  <body class="body">
+    <main class="main">
+      <section id="hero" class="hero">
+        <header class="header">
+          <div class="wrapper">
+            <div class="header__container container">
+              <a href="" class="header__logo--link">
+                <img
+                  src="./assets/icons/Logo.svg"
+                  alt="logo"
+                  class="header__logo"
+                />
+              </a>
+              <nav class="header-nav">
+                <ul class="header-nav__list">
+                  <li class="header-nav__item">
+                    <a href="#about__us" class="header-nav__link">about us</a>
+                  </li>
+                  <li class="header-nav__item">
+                    <a href="#services" class="header-nav__link">services</a>
+                  </li>
+                  <li class="header-nav__item">
+                    <a href="#portfolio" class="header-nav__link">portfolio</a>
+                  </li>
+                  <li class="header-nav__item">
+                    <a href="#contacts" class="header-nav__link">contacts</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="header__container__languages">
+                <button class="header__container__languages--btn">EN</button>
+                <button class="header__container__languages--btn">UA</button>
+                <button class="header__container__languages--btn">RU</button>
+              </div>
+            </div>
+          </div>
+        </header>
+    
+        <div class="wrapper">
+          <div class="hero__container">
+            <div class="hero__container__name">
+              <h1 class="hero__container__name__title">Develop Backend</h1>
+              <p class="hero__container__name__subtitle">with our team</p>
+              <a href="" class="hero__container__name__link">Contact us</a>
+            </div>
+            <div class="hero__container__features">
+              <div class="hero__container__features--item">
+                <h3 class="hero__container__features--item--title">
+                  1<span class="dot">.</span> Contact
+                </h3>
+                <p class="hero__container__features--item--text">
+                  Write us by Telegram messenger, or by contact form below
+                </p>
+              </div>
+              <div class="hero__container__features--item hero__container__features--item2">
+                <h3 class="hero__container__features--item--title">
+                  2<span class="dot">.</span> Discuss
+                </h3>
+                <p class="hero__container__features--item--text">
+                  Describe what you want, and answer some questions we'll give
+                  you
+                </p>
+              </div>
+              <div class="hero__container__features--item">
+                <h3 class="hero__container__features--item--title">
+                  3<span class="dot">.</span> Receive
+                </h3>
+                <p class="hero__container__features--item--text">
+                  After few days you can check intermediate result, or receive
+                  finished work
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="wrapper">
+          <div class="about__container container">
+            <div class="about__column about__column__left">
+              <h3 id="about__us" class="title">
+                <span class="line"></span> ABOUT US
+              </h3>
+              <h2 class="about__subtitle subtitle">
+                We are professional Python developers<span class="dot">.</span>
+              </h2>
+              <p class="about__description description">
+                Our team called Efficax. We are only at the beginning of our
+                journey bu this doesn’t mean that we don’t have any experience.
+                Each team member has personal experience in software development
+                in many years.
+              </p>
+            </div>
+            <div class="about__column">
+              <h3 class="about__title">
+                GITHUB: RECENT PROJECTS
+                <img
+                  class="about__title--img"
+                  src="./assets/icons/GitHub.svg"
+                  alt="github"
+                />
+              </h3>
+              <ul class="about__repos">
+                <li class="about__repos--item">
+                  <a href="" class="about__repos--link"
+                    >efficax/olx-scraper-demo</a
+                  >
+                  <p class="about__repos--description">
+                    Get systematized information about the ad on the site
+                    olx.com
+                  </p>
+                  <hr class="github_hr" />
+                </li>
+                <li class="about__repos--item">
+                  <a href="" class="about__repos--link"
+                    >efficax/drink-water-demo</a
+                  >
+                  <p class="about__repos--description">
+                    A Telegram bot that will remind you to drink water every
+                    time you set
+                  </p>
+                  <hr class="github_hr" />
+                </li>
+                <li class="about__repos--item">
+                  <a href="" class="about__repos--link"
+                    >efficax/steam-autoregistrator-demo</a
+                  >
+                  <p class="about__repos--description">
+                    An automatization tool to create steam accounts. Needs your
+                    presence to input code from mail
+                  </p>
+                </li>
+              </ul>
+              <a class="about__follow" href="/">Go to GitHub Profile -></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="wrapper">
+          <div class="services__container container">
+            <h3 id="services" class="services__title title">
+              <span class="line"></span> SERVICES
+            </h3>
+            <h2 class="services__subtitle subtitle">
+              We do Everything<span class="dot">.</span>
+            </h2>
+            <p class="services__description description">
+              Our stack is very rangable. We can develop simple scrapers and
+              complicated backends at the same time. Also, you can combine
+              services as you want.
+            </p>
+            <ul class="services__list">
+              <li class="services__item">
+                <img
+                  src="./assets/icons/Service logo.svg"
+                  alt="img"
+                  class="services__item--img"
+                />
+                <h4 class="services__item--title">Backend</h4>
+                <p class="services__item--text">
+                  As usual we develop API based architectures (SOA,
+                  microservices) using Django with django-rest-framework
+                </p>
+              </li>
+              <li class="services__item services__automation">
+                <img
+                  src="./assets/icons/Service logoAuto .svg"
+                  alt="img"
+                  class="services__item--img"
+                />
+                <h4 class="services__item--title">Automation</h4>
+                <p class="services__item--text">
+                  We can help you with automation any in-browser process using
+                  Selenium or/and Requests
+                </p>
+              </li>
+              <li class="services__item services__chatbots">
+                <img
+                  src="./assets/icons/Service logo ChatB.svg"
+                  alt="img"
+                  class="services__item--img"
+                />
+                <h4 class="services__item--title">Chatbots</h4>
+                <p id="chatbots" class="services__item--text">
+                  We use Telegram Messenger as default platform for our chatbots
+                </p>
+              </li>
+              <li class="services__item services__scraping">
+                <img
+                  src="./assets/icons/Service logo Scr.svg"
+                  alt="img"
+                  class="services__item--img"
+                />
+                <h4 class="services__item--title">Scraping</h4>
+                <p class="services__item--text">
+                  If you need structured information from any web resource, we
+                  can help you by creating scraper
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="wrapper">
+          <div class="portfolio__container container">
+            <h3 id="portfolio" class="portfolio__title title">
+              <span class="line"></span> PORTFOLIO
+            </h3>
+            <h2 class="portfolio__subtitle subtitle">
+              Our latest Project<span class="dot">.</span>
+            </h2>
+            <p class="portfolio__description description">
+              Here you can see projects we working at now or worked for some
+              time ago. Some of them are public so you can see our style of
+              coding.
+            </p>
+            <div class="portfolio__wrapper">
+              <div class="portfolio__yahoo">
+                <div class="portfolio__yahoo__wrapper">
+                <h2 class="portfolio__yahoo__title">
+                  Yahoo Autoregistrator Project
+                </h2>
+                <p class="portfolio__yahoo__description">
+                  This product is developed in purpose to show our skills in
+                  various directions at the same time.
+                </p>
+              </div>
+                <div class="portfolio__yahoo__link">
+                  <a href="" class="portfolio__yahoo__githab"
+                    >Avaliable on Github -></a
+                  >
+                </div>
+              </div>
+              <div class="portfolio__zira">
+                <div class="portfolio__zira__wrapper">
+                <h2 class="portfolio__zira__title">Zira</h2>
+                <p class="portfolio__zira__description">
+                  A task manager from developers for developers. Actually under
+                  development
+                </p>
+              </div>
+                <div class="portfolio__zira__link">
+                  <a href="" class="portfolio__zira__development">
+                    Under development</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__container">
+          <h2 class="footer__subtitle subtitle">
+            Let’s Talk?<span class="dot">.</span>
+          </h2>
+          <div class="footer__description__wrapper">
+            <p class="footer__description description">
+              If you would like to make an offer, or you have questions left -
+              feel free to contact us by any of channel below
+            </p>
+          </div>
+          <div class="footer__button__wrapper">
+            <button class="footer__button__telegram footer__button">
+              <img src="./assets/icons/Telegram.svg" alt="Telegram" /> Telegram
+            </button>
+            <div>
+              <button class="footer__button__gmail footer__button">
+                <img src="./assets/icons/Gmail.svg" alt="Gmail" /> Gmail
+              </button>
+            </div>
+            <button class="footer__button__fiverr footer__button">
+              <img src="./assets/icons/Fiverr.svg" alt="Fiverr" /> Fiverr
+            </button>
+          </div>
+          <hr class="footer_hr" />
+          <p class="footer__text__end">© 2022 Efficax Team</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- <script src="./js/p5.min.js"></script>
+  <script src="./js/vanta.topology.min.js"></script>
+  <script>
+    VANTA.TOPOLOGY({
+      el: "#hero",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.0,
+      minWidth: 200.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      color: "#A7FFEB",
+      backgroundColor: "black",
+    });
+  </script> -->
+</html>

@@ -1,0 +1,22 @@
+.container__title--top {
+  display: flex;
+  top: 0;
+}
+
+.container__title--bottom {
+  display: flex;
+  bottom: 0;
+}
+
+.conatainer__button {
+  display: flex;
+  border: 0ch;
+}
+.conatainer__title--top {
+  display: flex;
+  top: 0;
+}
+.conatainer__title--bottom {
+  display: flex;
+  bottom: 0;
+}/*# sourceMappingURL=styles.css.map */

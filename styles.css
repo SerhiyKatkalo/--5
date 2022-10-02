@@ -1,0 +1,527 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+html ::-webkit-scrollbar {
+  width: 5px;
+}
+html ::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+html ::-webkit-scrollbar-thumb {
+  background: #a7ffeb;
+  border-radius: 5px;
+}
+html ::-webkit-scrollbar-thumb:hover {
+  background: #a7ffeb;
+}
+
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: #e8eaf6;
+}
+.body a,
+.body a:hover,
+.body a:focus,
+.body a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.body .container {
+  padding: 90px;
+}
+.body .wrapper {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.body .hero,
+.body .services,
+.body .footer {
+  background: #1e1e1e;
+}
+.body .hero__container__name__title,
+.body .hero__container__name__link,
+.body .about__repos--link,
+.body .about__follow,
+.body .dot {
+  color: #a7ffeb;
+}
+.body .hero__container__name__subtitle,
+.body .subtitle {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+}
+.body .title {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+.body .description,
+.body .about__repos--description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.body .subtitle {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.body .header {
+  padding: 43px 50px 0 43px;
+}
+.body .header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 218px 0;
+}
+.body .header__container__languages--btn {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: transparent;
+  color: #e8eaf6;
+  border: none;
+}
+.body .header-nav__item {
+  list-style: none;
+  text-transform: uppercase;
+  margin: 0 22.5px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #e8eaf6;
+}
+.body .header-nav__link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.body .header-nav__list {
+  display: flex;
+}
+.body .main .portfolio__description,
+.body .main .about__description,
+.body .main .services__description {
+  max-width: 750px;
+}
+.body .main .line {
+  width: 100px;
+  height: 2px;
+  border: 2px solid #a7ffeb;
+  margin-right: 60px;
+  display: flex;
+}
+.body .main .about,
+.body .main .portfolio {
+  background: linear-gradient(101.21deg, #32273d 0.45%, #152336 97.19%);
+}
+.body .main .hero__container__name {
+  text-align: center;
+  padding-bottom: 186px;
+}
+.body .main .hero__container__name__link {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  border: 1px solid #a7ffeb;
+  padding: 20px 50px;
+  border-radius: 20px;
+}
+.body .main .hero__container__name__title {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 121px;
+  margin-bottom: 10px;
+}
+.body .main .hero__container__name__subtitle {
+  margin-bottom: 57px;
+}
+.body .main .hero__container__features {
+  padding: 0px 90px 90px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.body .main .hero__container__features--item2 {
+  margin: 0 40px;
+}
+.body .main .hero__container__features--item {
+  max-width: 350px;
+}
+.body .main .hero__container__features--item--title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  margin: 0px 0px 20px 0px;
+  white-space: nowrap;
+}
+.body .main .hero__container__features--item--text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.body .main .about__container {
+  display: flex;
+}
+.body .main .about__container .about__column__left {
+  margin-right: 70px;
+}
+.body .main .about__container .about__column .about__repos {
+  list-style: none;
+  margin: 0 0 40px 0;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+.body .main .about__container .about__column .about__repos--description {
+  margin-top: 15px;
+}
+.body .main .about__container .about__column .about__repos .github_hr {
+  border: 1px solid #404354;
+  margin: 15px 0px;
+}
+.body .main .about__container .about__column .about__repos--link,
+.body .main .about__container .about__column .about__follow {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+.body .main .about__container .about__column .about__title {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+.body .main .about__container .about__column .about__title,
+.body .main .about__container .about__column .about__follow {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.body .main .about__container .about__column .about__title--img,
+.body .main .about__container .about__column .about__follow--img {
+  margin-left: 15px;
+}
+.body .main .services__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+  margin-bottom: 0px;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+.body .main .services__list .services__item {
+  background: linear-gradient(101.21deg, #32273d 0.45%, #152336 97.19%);
+  max-width: 300px;
+  max-height: 350px;
+  border-radius: 30px;
+  list-style: none;
+  text-align: center;
+  padding-bottom: 96px;
+  position: relative;
+  padding-top: 96px;
+}
+.body .main .services__list .services__item--img {
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+.body .main .services__list .services__item--title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.body .main .services__list .services__item--title #chatbots {
+  padding: 0 5px;
+}
+.body .main .services__list .services__item--text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 30px 30px 96px 30px;
+}
+.body .main .portfolio__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.body .main .portfolio__wrapper {
+  display: flex;
+  margin-top: 65px;
+}
+.body .main .portfolio__wrapper .portfolio__yahoo,
+.body .main .portfolio__wrapper .portfolio__zira {
+  max-width: 695px;
+  min-height: 300px;
+  padding: 50px 30px 40px 50px;
+}
+.body .main .portfolio__wrapper .portfolio__yahoo .portfolio__zira__wrapper,
+.body .main .portfolio__wrapper .portfolio__yahoo .portfolio__yahoo__wrapper,
+.body .main .portfolio__wrapper .portfolio__zira .portfolio__zira__wrapper,
+.body .main .portfolio__wrapper .portfolio__zira .portfolio__yahoo__wrapper {
+  height: 70%;
+}
+.body .main .portfolio__wrapper .portfolio__yahoo {
+  background-image: url(./assets/icons/yahoo.png);
+}
+.body .main .portfolio__wrapper .portfolio__zira {
+  background-image: url(./assets/icons/zira.png);
+  margin-left: 30px;
+}
+.body .main .portfolio__wrapper .portfolio__yahoo__title,
+.body .main .portfolio__wrapper .portfolio__zira__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  margin-top: 0;
+}
+.body .main .portfolio__wrapper .portfolio__yahoo__description,
+.body .main .portfolio__wrapper .portfolio__zira__description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  max-width: 595px;
+}
+.body .main .portfolio__wrapper .portfolio__yahoo__githab,
+.body .main .portfolio__wrapper .portfolio__zira__development {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  padding-top: 20px;
+}
+.body .main .portfolio__wrapper .portfolio__zira__link {
+  height: 30%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.body .main .portfolio__wrapper .portfolio__yahoo__link {
+  height: 30%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.body .footer {
+  padding-bottom: 50px;
+}
+.body .footer_hr {
+  border-color: #313e57;
+}
+.body .footer__subtitle {
+  text-align: center;
+}
+.body .footer__button {
+  width: 250px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  background-color: transparent;
+}
+.body .footer__button__telegram {
+  border: 4px solid #0088cc;
+  color: #0088cc;
+}
+.body .footer__button__gmail {
+  margin-left: 60px;
+  margin-right: 60px;
+  border: 4px solid #fbbc05;
+  color: #fbbc05;
+}
+.body .footer__button__fiverr {
+  border: 4px solid #1dbf73;
+  color: #1dbf73;
+}
+.body .footer__button__wrapper {
+  margin-bottom: 127px;
+  display: flex;
+  justify-content: center;
+}
+.body .footer__container {
+  padding-top: 110px;
+}
+.body .footer__text__end {
+  margin-top: 50px;
+  margin-left: 90px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.body .footer__description {
+  text-align: center;
+  max-width: 695px;
+}
+.body .footer__description__wrapper {
+  margin-top: 53px;
+  margin-bottom: 81px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1509px) {
+  .body .main .services__list {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+  }
+  .body .main .services__list .services__item {
+    min-width: 300px;
+  }
+  .body .main .services__list .services__chatbots {
+    margin-top: 80px;
+  }
+  .body .main .services__list .services__scraping {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 1345px) {
+  .body .main .about__title--img {
+    display: none;
+  }
+}
+@media (max-width: 1218px) {
+  .body .main .hero__container__features {
+    padding: 0px 90px 90px 90px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .body .main .hero__container__features .hero__container__features--item--title {
+    margin-top: 70px;
+  }
+  .body .main .services__list {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1034px) {
+  .body .main .portfolio__wrapper {
+    display: block;
+  }
+  .body .main .portfolio__wrapper .portfolio__yahoo,
+.body .main .portfolio__wrapper .portfolio__zira {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .body .main .portfolio__wrapper .portfolio__zira {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 983px) {
+  .body .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .body .header {
+    padding: 20px 20px 0 20px;
+  }
+  .body .header__container {
+    display: block;
+    position: relative;
+  }
+  .body .header__container__languages {
+    text-align: end;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .body .header-nav__item {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .body .header-nav__list {
+    display: block;
+    padding-left: 0px;
+  }
+  .body .footer {
+    padding: 0px 20px 50px 20px;
+  }
+  .body .footer_hr {
+    border-color: #313e57;
+  }
+  .body .footer__button {
+    width: 250px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-bottom: 20px;
+  }
+  .body .footer__button__gmail {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .body .footer__button__wrapper {
+    margin-bottom: 117px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .body .footer__container {
+    padding-top: 50px;
+  }
+  .body .footer__text__end {
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+@media (max-width: 899px) {
+  .body .main .about__container {
+    display: block;
+  }
+  .body .main .about__container .about__column .about__title {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+  }
+  .body .main .about__container .about__column .about__title--img {
+    display: block;
+  }
+}
+@media (max-width: 710px) {
+  .body .main .hero__container__features--item2 {
+    margin: 0px;
+  }
+  .body .main .services__list {
+    display: block;
+  }
+  .body .main .services__list .services__item {
+    margin: 0px auto 80px auto;
+  }
+  .body .main .services__list .services__scraping {
+    margin-bottom: 0px;
+  }
+}/*# sourceMappingURL=styles.css.map */

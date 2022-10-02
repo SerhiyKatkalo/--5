@@ -1,0 +1,29 @@
+.container__button--top {
+}
+
+.container__title--top {
+  display: flex;
+  top: 0;
+}
+
+.container__title--bottom {
+  display: flex;
+  bottom: 0;
+}
+
+.conatainer {
+  &__button {
+    display: flex;
+    border: 0ch;
+  }
+  &__title {
+    &--top {
+      display: flex;
+      top: 0;
+    }
+    &--bottom {
+      display: flex;
+      bottom: 0;
+    }
+  }
+}

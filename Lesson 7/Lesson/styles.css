@@ -1,0 +1,67 @@
+.main_element {
+    display: flex;
+    padding: 20px 30px;
+    border: 1px solid #ccc;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.main_element::before {
+    /* content: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"); */
+    width: 50px;
+    content: "12341";
+    margin-right: 20px;
+    color: red;
+}
+
+.main_element::after {
+    /* content: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"); */
+    width: 50px;
+    content: "AFTER";
+    margin-right: 20px;
+    color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.main_element:hover::before {
+    cursor: pointer;
+    color: blue;
+}
+
+.absolute_container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+}
+
+.box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgb(83, 75, 75);
+    border: 1px solid rgb(95, 42, 42);
+}
+
+.z-4 {
+    z-index: 4;
+}
+
+.z-1 {
+    z-index: 5;
+    /* Чим більше значення індексу - тим вище він буде. Елементи з нижчим індексом скриваються під елементом із вищим */
+}
+
+img {
+    height: 200px;
+    width: 150px;
+    object-fit: contain;
+    /* //Якщо зображенню необхідно зберегти відношення сторін, але при цьому зображення повинно вміщатися в заданій області, то використовується значення contain.
+    //Якщо зображенню необхідно закрити всю площу блоку (як бекграунд), але при цьому зображення повинно вміщатися в заданій області, то використовується значення cover. */
+}
